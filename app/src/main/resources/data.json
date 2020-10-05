@@ -1,0 +1,191 @@
+[
+    {
+        "name" : "Remote Control",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_remote_control_key",
+                "title" : "Remote Control",
+                "note" : " 1. Point the remote towards the remote control sensor of the TV and use it within 8 metes \n 2. Put the batteries in the right place after using to avoid pollution",
+                "description" : "\n 1. POWER:Turn power on or standby mode\n 2. INPUT:Select the input source\n 3. HOME:Go to homepage\n 4. TV:Go to TV source\n 5. MENU:ShowsTV Settings menu\n 6. BACK:Go back to the previous menu or exit a running APP\n 7. Quick button:Use as instant access function in USB Video/Audio Playing mode"
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_remote_control_input",
+                "title" : "Remote Control",
+                "note" : " 1. Point the remote towards the remote control sensor of the TV and use it within 8 metes \n 2. Put the batteries in the right place after using to avoid pollution",
+                "description" : "Select the input from devices connected to TV through different posts, such as HDMI, AV, ect."
+            },
+            {
+                "pageIndex" : 2,
+                "mainIcon" : "ic_remote_control_cap",
+                "title" : "Remote Control",
+                "note" : " 1. Point the remote towards the remote control sensor of the TV and use it within 8 metes \n 2. Put the batteries in the right place after using to avoid pollution",
+                "description" : "Yellow button: Screenshot by pressing for seconds"
+            },
+            {
+                "pageIndex" : 3,
+                "mainIcon" : "ic_remote_control_recent",
+                "title" : "Remote Control",
+                "note" : " 1. Point the remote towards the remote control sensor of the TV and use it within 8 metes \n 2. Put the batteries in the right place after using to avoid pollution",
+                "description" : "Long press \"HOME\" button to browse the recent apps"
+            }
+        ]
+    },
+    {
+        "name" : "TV Info",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_tv_channel_volumn",
+                "title" : "Adjust channel and volume",
+                "note" : "",
+                "description" : " 1. Press CH +/- to switch channels.\n 2. Press VOL +/- to adjust volume."
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_tv_channel_list",
+                "title" : "Channel List",
+                "note" : "",
+                "description" : " 1. Press OK/LIST on the remote control to view channels line-up.\n 2. Press UP/DOWN to choose your channels.\n 3. Press LEFT/RIGHT to switch the channel list and favorite list. "
+
+            },
+            {
+                "pageIndex" : 2,
+                "mainIcon" : "ic_tv_guide",
+                "title" : "Guide",
+                "note" : "",
+                "description" : "Guide displays scheduled TV programs. You can navigate, select, view and record Programs."
+            },
+            {
+                "pageIndex" : 3,
+                "mainIcon" : "ic_tv_qmenu",
+                "title" : "Quick Menu",
+                "note" : "",
+                "description" : "Press \"MENU\" button to show System Setting options quickly"
+            }
+        ]
+    },
+    {
+        "name" : "Media",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_media_entrance",
+                "title" : "Media",
+                "note" : "",
+                "description" : "View photos, watch videos and play music from a USB storage device."
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_remote_control_input",
+                "title" : "Media",
+                "note" : "",
+                "description" : "The hidden menu would show up when the focus move to the far left."
+            }
+        ]
+    },
+    {
+        "name" : "App Info",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_featured_app",
+                "title" : "APP",
+                "note" : "",
+                "description" : "Find more interesting apps in the “Featured app” page"
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_local_app",
+                "title" : "APP",
+                "note" : "",
+                "description" : "View your apps in the \"Local app\" page"
+            },
+            {
+                "pageIndex" : 2,
+                "mainIcon" : "ic_setting_app",
+                "title" : "APP",
+                "note" : "",
+                "description" : "Manage your apps in \"Settings -> Device -> Manage Apps\""
+            }
+        ]
+    },
+    {
+        "name" : "Network",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_wireless_network",
+                "title" : "Network Connection",
+                "note" : "",
+                "description" : "In \"Settings -> Network\", you can set up your network."
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_wireless_wireless",
+                "title" : "Wireless",
+                "note" : " 1. You need download the third-party app. \n 2. You can download AirPlay in the TV store.",
+                "description" : "Share the content in phone or computer with TV through wireless."
+            },
+            {
+                "pageIndex" : 2,
+                "mainIcon" : "ic_wireless_miracast",
+                "title" : "Miracast",
+                "note" : "",
+                "description" : " 1. In Setting -> Network -> WI-FI -> Mcast , you can use miracast function\n 2. It is only for android 4.2 system or higher."
+            }
+        ]
+    },
+    {
+        "name" : "Settings",
+        "info" : [
+            {
+                "pageIndex" : 0,
+                "mainIcon" : "ic_setting_screen_mode",
+                "title" : "TV menu",
+                "note" : "",
+                "description" : "Enter the TV menu, select image or sound pattern for scenario Settings"
+            },
+            {
+                "pageIndex" : 1,
+                "mainIcon" : "ic_setting_software_update",
+                "title" : "Software update",
+                "note" : "",
+                "description" : "Update your TV when a new software version is available"
+            },
+            {
+                "pageIndex" : 2,
+                "mainIcon" : "ic_device_vcr",
+                "title" : "VCR",
+                "note" : " 1. Power off the unit when you connect an external device to TV. \n 2. Match the connection terminal to the cable when you connect an external device to TV.",
+                "description" : " 1. Unplug the cable or antenna from the back of the TV.\n 2. Connect the cable or antenna to the ANT IN terminal on the back of the VCR.\n 3. Connect an RF Cable between the ANT OUT terminal on the VCR and the ANT IN terminal on the TV.\n 4. Connect a Component Cable between the COMPONENT [Y, Pb, Pr] jacks on the DVD player and YPbPr jack on the TV.\n 5. Connect Audio Cables between the AUDIO OUT jacks on the VCR and the AUDIO L and AUDIO R jacks on the TV."
+            },
+            {
+                "pageIndex" : 3,
+                "mainIcon" : "ic_device_camcorder",
+                "title" : "Camcorder",
+                "note" : " 1. Power off the unit when you connect an external device to TV. \n 2. Match the connection terminal to the cable when you connect an external device to TV.",
+                "description" : " 1. Connect a Video Cable between the AV VIDEO IN jacks on the TV and the VIDEO OUT jack on the camcorder.\n 2. Connect Audio Cables between the AUDIO L and AUDIO R jacks on the TV and the AUDIO OUT jacks on the camcorder.\n 3. Connect a Video Cable between the AV VIDEO IN jacks on the TV and the VIDEO OUT jack on the DVD.\n 4.Connect Audio Cables between the component IN AUDIO L and R jacks on the TV and the AUDIO OUT jack on the DVD."
+            },
+            {
+                "pageIndex" : 4,
+                "mainIcon" : "ic_device_dvd_topbox",
+                "title" : "DVD Player/Set-Top Box",
+                "note" : " 1. Power off the unit when you connect an external device to TV. \n 2. Match the connection terminal to the cable when you connect an external device to TV.",
+                "description" : "Connect a HDMI Cable between the HDMI1/2/3 connector on the TV and the HDMI connector on the DVD player/Set-Top Box."
+            },
+            {
+                "pageIndex" : 5,
+                "mainIcon" : "ic_device_pc",
+                "title" : "PC",
+                "note" : " 1. Power off the unit when you connect an external device to TV. \n 2. Match the connection terminal to the cable when you connect an external device to TV.",
+                "description" : "Connect a PC Audio Cable between PC AUDIO IN jack on the TV and the Audio OUT jack of the soundcard on your computer."
+            }
+        ]
+    },
+    {
+        "name": "EXIT",
+        "info": []
+    }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/page_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/page_title_text_size"
+        android:textColor="@color/page_title_text_color"
+        android:gravity="center_vertical"
+        android:id="@+id/title_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_title_top_margin"
+        android:text="Remote Control"
+        android:paddingStart="@dimen/page_title_start_padding" />
+    <ImageView
+        android:id="@+id/num_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/page_indicator_icon_bottom_margin"
+        android:paddingStart="@dimen/page_indicator_icon_start_padding" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/left_page_width"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="@dimen/page_main_image_width"
+                android:layout_height="@dimen/page_main_image_height"
+                android:scaleType="fitXY" />
+            <TextView
+                android:textSize="@dimen/note_text_size"
+                android:textColor="@color/note_text_color"
+                android:id="@+id/note_text_view"
+                android:background="@mipmap/ic_note_boarder"
+                android:paddingTop="@dimen/note_text_top_padding"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="@dimen/note_text_bottom_margin"
+                android:lineSpacingExtra="@dimen/note_text_line_space"
+                android:paddingStart="@dimen/note_text_start_padding"
+                android:paddingEnd="@dimen/note_text_end_padding"
+                android:layout_marginStart="@dimen/note_text_start_margin"
+                android:layout_marginEnd="@dimen/note_text_end_margin" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerPadding="@dimen/desc_text_divider_padding" >
+            <TextView
+                android:id="@+id/desc_text_area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

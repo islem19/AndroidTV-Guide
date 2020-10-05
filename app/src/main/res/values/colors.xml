@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="tag_view_container_bg">#ff90a4ae</color>
+    <color name="help_title_text_color">#ffeeeeee</color>
+    <color name="help_title_bg">#ff29343a</color>
+    <color name="page_bg">#ffeeeeee</color>
+    <color name="page_title_text_color">#ff29343a</color>
+    <color name="note_text_color">#ff618394</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="color_tag_selected">#ff78909c</color>
+
+</resources>

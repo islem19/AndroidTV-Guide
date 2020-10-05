@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dz.islem.tvguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_banner"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_banner"
+        android:supportsRtl="true"
+        android:banner="@drawable/ic_banner"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

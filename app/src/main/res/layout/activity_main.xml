@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/tag_view_container_bg"
+        android:layout_width="@dimen/tag_view_container_width"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textSize="@dimen/help_title_text_size"
+            android:textColor="@color/help_title_text_color"
+            android:gravity="center"
+            android:background="@color/help_title_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/help_title_height"
+            android:text="HELP" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/tag_view_container"
+            android:background="@color/tag_view_container_bg"
+            android:layout_width="@dimen/tag_view_container_width"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CONTROL"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_remote" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TV"
+                android:gravity="center"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_tv" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDIA"
+                android:gravity="center"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_media" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="APP"
+                android:gravity="center"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_app" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="NETWORK"
+                android:gravity="center"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_wireless" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SETTINGS"
+                android:gravity="center"
+                android:padding="5dp"
+                app:drawableTopCompat="@mipmap/ic_tag_setting" />
+            <TextView
+                android:id="@+id/exit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:tag="exit"
+                app:drawableTopCompat="@mipmap/ic_tag_exit" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tag_view_container_width">100.0dip</dimen>
+    <dimen name="help_title_text_size">20.0sp</dimen>
+    <dimen name="help_title_height">50.0dip</dimen>
+    <dimen name="first_tag_item_top_margin">10.0dip</dimen>
+    <dimen name="page_title_text_size">20.0sp</dimen>
+    <dimen name="page_title_top_margin">53.0dip</dimen>
+    <dimen name="page_title_start_padding">22.0dip</dimen>
+    <dimen name="page_indicator_icon_bottom_margin">5.0dip</dimen>
+    <dimen name="page_indicator_icon_start_padding">24.0dip</dimen>
+    <dimen name="left_page_width">589.0dip</dimen>
+    <dimen name="page_main_image_height">342.0dip</dimen>
+    <dimen name="page_main_image_width">589.0dip</dimen>
+    <dimen name="note_text_size">13.0sp</dimen>
+    <dimen name="note_text_start_margin">24.0dip</dimen>
+    <dimen name="note_text_start_padding">12.0dip</dimen>
+    <dimen name="note_text_top_padding">16.0dip</dimen>
+    <dimen name="note_text_bottom_margin">5.0dip</dimen>
+    <dimen name="note_text_end_margin">17.0dip</dimen>
+    <dimen name="note_text_end_padding">12.0dip</dimen>
+    <dimen name="note_text_line_space">5.0dip</dimen>
+    <dimen name="desc_text_divider_padding">20.0dip</dimen>
+
+
+</resources>
